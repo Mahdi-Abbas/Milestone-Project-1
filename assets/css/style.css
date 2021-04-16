@@ -1,0 +1,56 @@
+html {
+    height: 100vh;
+    overflow-x: visible;
+}
+
+
+body {
+    background-color: #ebe4e4;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("../images/rf-online-1.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main {
+    height: auto;
+}
+
+.homepage {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1,
+p {
+    color: #fafafa;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fafafa;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fafafa;
+    text-align: center;
+    height: 100px;
+    margin: 0;
+}
