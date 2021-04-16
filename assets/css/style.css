@@ -1,24 +1,13 @@
-html {
-    height: 100vh;
-    overflow-x: visible;
-}
-
-
 body {
-    background-color: #ebe4e4;
-    height: 100%;
-    margin: 0;
-    padding: 0;
     background: url("../images/rf-online-1.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-bottom: 200px;
 }
 
-main {
-    height: auto;
-}
+
 
 .homepage {
     display: flex;
@@ -38,19 +27,46 @@ p {
     margin-bottom: 30px;
 }
 
+
+
 h2 {
     font-weight: bold;
     letter-spacing: 2px;
     color: #fafafa;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: #fafafa;
-    text-align: center;
-    height: 100px;
+
+.img-thumbnail {
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.form-change {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 2px 3px 14px white;
+}
+
+.form-head {
     margin: 0;
 }
+
+.form-view {
+    margin-top: 10em;
+}
+
+.page-header {
+    margin-top: 10em;
+    letter-spacing: 2px;
+}
+
+.page-main {
+    margin-top: 30px;
+}
+
+
+
+
+@media screen and (max-width: 600px)
